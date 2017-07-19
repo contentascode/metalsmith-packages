@@ -1,21 +1,21 @@
-# metalsmith-symlink
+# metalsmith-packages
 
-[![Version](https://img.shields.io/npm/v/metalsmith-transclude-transform.svg)](https://npmjs.com/package/metalsmith-transclude-transform) [![Build Status](https://travis-ci.org/contentascode/metalsmith-transclude-transform.svg?branch=master)](https://travis-ci.org/contentascode/metalsmith-transclude-transform)
+[![Version](https://img.shields.io/npm/v/metalsmith-packages.svg)](https://npmjs.com/package/metalsmith-packages) [![Build Status](https://travis-ci.org/contentascode/metalsmith-packages.svg?branch=master)](https://travis-ci.org/contentascode/metalsmith-packages)
 
-  A metalsmith plugin to add files from
+  A metalsmith plugin to add folders or files from outside the source directory with the idea to evolve into a content package system.
 
 ## Installation
 
-    $ npm install metalsmith-transclude
+    $ npm install metalsmith-packages
 
 ## CLI Usage
 
-  Install via npm and then add the `metalsmith-symlink` key to your `metalsmith.json` plugins, like so:
+  Install via npm and then add the `metalsmith-packages` key to your `metalsmith.json` plugins, like so:
 
 ```json
 {
   "plugins": {
-    "metalsmith-symlink": {
+    "metalsmith-packages": {
       "paths": {}, // Not implemented yet.
       "key": "folder"
     }
