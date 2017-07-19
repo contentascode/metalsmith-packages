@@ -23,11 +23,11 @@
     "eslint-config-prettier": "^2.1.1",
     "metalsmith": "^2.3.0",
     "mocha": "^3.4.2",
-    "nodemon": "^1.11.0",
-    "source-map-support": "^0.4.15"
+    "nodemon": "^1.11.0"
   },
   "dependencies": {
     "async": "^2.4.1",
-    "debug": "^2.2.0"
+    "debug": "^2.2.0",
+    "source-map-support": "^0.4.15"
   }
 }
